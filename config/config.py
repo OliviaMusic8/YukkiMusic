@@ -65,7 +65,7 @@ LOG_GROUP_ID = getenv("LOG_GROUP_ID", "").strip()
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "5772545455").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -78,7 +78,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamVivek/YukkiMusic",
+    "https://github.com/OliviaMusic8/YukkiMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -91,10 +91,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
+    "SUPPORT_CHANNEL", "https://t.me/Sad_shayari_lovers"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
+    "SUPPORT_GROUP", "https://t.me/+risb8uIb32JjOTJl"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -119,7 +119,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamVivek/YukkiMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/hindi_dubbed_hindi_movies")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -193,12 +193,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",  # This is the file id of the photo you can also put the url of photo
+    "https://telegra.ph/file/7d06c74e7895e1627722b.jpg",  # This is the file id of the photo you can also put the url of photo
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://te.legra.ph/file/d6bf7fec70a71321164b8.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
